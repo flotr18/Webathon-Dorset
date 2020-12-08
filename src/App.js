@@ -1,13 +1,11 @@
 
 import './App.css';
-import Home from 'Home';
-import MovieList from 'MovieList';
-import SerieList from 'SerieList';
+import Home from './Home';
+import MovieList from './MovieList';
+import SerieList from './SerieList';
 import {
-  BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 
 
