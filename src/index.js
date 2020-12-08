@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import MovieList from './MovieList';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <MovieList />
+    <SerieList />
   </React.StrictMode>,
   document.getElementById('root')
 );
