@@ -3,14 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import MovieList from './MovieList';
+import {BrowserRouter} from "react-router-dom";
 
 ReactDOM.render(
-  <React.StrictMode>
+  <BrowserRouter>
     <App />
-    <MovieList />
-    <SerieList />
-  </React.StrictMode>,
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
