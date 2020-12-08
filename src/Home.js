@@ -21,7 +21,7 @@ function Home() {
                             <Link className="nav-link" to="/Serie">Serie</Link>
                         </li>
                     </ul>
-                    <form className="form-inline my-2 my-lg-0">
+                    <form className="form-inline my-2 my-lg-0 d-flex">
                         <input id="navsearch" className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
                         <button className="btn my-2 my-sm-0" type="submit">Search</button>
                     </form>
@@ -33,9 +33,9 @@ function Home() {
                         <img src={Logo} alt={"logo"}/>
                     </div>
                     <div className="col-12">
-                        <form className="row">
+                        <form className="row ">
                             <div className="col-12">
-                                <input id="mainsearch" className="form-control" type="search" placeholder="Search" aria-label="Search"/>
+                                <input id="mainsearch" className="form-control" type="search" placeholder="Search" aria-label="Search" w1/>
                             </div>
                             <div className="col-12">
                                 <button className="btn" type="submit">Search</button>
